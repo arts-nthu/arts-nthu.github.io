@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ai_music on NTHU ArtsCenter</title>
+    <link>https://nthu-artscenter.github.io/categories/ai_music/</link>
+    <description>Recent content in ai_music on NTHU ArtsCenter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 08 Apr 2020 19:56:42 +0000</lastBuildDate>
+    
+	<atom:link href="https://nthu-artscenter.github.io/categories/ai_music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>人工智慧音樂會</title>
+      <link>https://nthu-artscenter.github.io/exhibitions/2020-01-19-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%9F%B3%E6%A8%82%E6%9C%83/</link>
+      <pubDate>Wed, 08 Apr 2020 19:56:42 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/exhibitions/2020-01-19-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%9F%B3%E6%A8%82%E6%9C%83/</guid>
+      <description>清華AI樂團的第一個公開音樂會，台北松菸誠品表演廳聽人工智慧演奏音樂，看人工智慧與人類的互動演出，這將是台灣一個重要的音樂會，歡迎1/12起向清大藝術中心索票。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	
+	
+		<head>
+    
+    <link rel="stylesheet" href="https://nthu-artscenter.github.io/sass/main.min.0c0add24c4ae3d6177ec8c757d4dadabdfbafc1ce2b1dfbe356079b64b68bd42.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    
+    <script src="https://unpkg.com/@fullcalendar/core@4.4.0/main.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core@4.4.0/main.css" crossorigin="anonymous">
+    <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.css" crossorigin="anonymous">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://unpkg.com/netlify-cms@^2.3.1/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-auth-providers"></script>
+</head>
+	
+	<body>
+		<nav class="menu">
+  <div class="m-container">
+    <a  href="/" class="brand">
+      <img src="/img/logo.png" alt="" class="pic">
+      <div class="content">
+        <div class="ch">國立清華大學清華學院藝術中心</div>
+        <div class="en">ARTS CENTER, TSING HUA NTHU</div>
+      </div>
+    </a>
+    
+    <div class="main">
+      
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/about/">
+        <div class="m-item" style="text-align: center;">關於我們<br>About Us</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/about/history/" class="sub-item" style="text-align: center;">
+            中心簡史
+            <br>
+            History
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/activity/" class="sub-item" style="text-align: center;">
+            活動概述
+            <br>
+            Activity
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/faculty/" class="sub-item" style="text-align: center;">
+            組織人員
+            <br>
+            Faculty
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/place/zyxel/" class="sub-item" style="text-align: center;">
+            展演場地
+            <br>
+            Exhibition Venue
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/music/" class="sub-item" style="text-align: center;">
+            清華樂集
+            <br>
+            NTHU Chamber Ensemble
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/art/" class="sub-item" style="text-align: center;">
+            清華藝集
+            <br>
+            NTHU Art Salon
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/exhibitions/">
+        <div class="m-item" style="text-align: center;">展演節目<br>Programs</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/categories/public_art/" class="sub-item" style="text-align: center;">
+            公共藝術
+            <br>
+            Public Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/visual_art/" class="sub-item" style="text-align: center;">
+            視覺藝術
+            <br>
+            Visual Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/performing_art/" class="sub-item" style="text-align: center;">
+            表演藝術
+            <br>
+            Performing Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/film_art/" class="sub-item" style="text-align: center;">
+            電影藝術
+            <br>
+            Film Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/ai_music/" class="sub-item" style="text-align: center;">
+            AI樂團
+            <br>
+            AI Music
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/posts/">
+        <div class="m-item" style="text-align: center;">專欄文章<br>Column</a>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/friends/">
+        <div class="m-item" style="text-align: center;">清藝之友<br>Friends</a>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/calendar/">
+        <div class="m-item" style="text-align: center;">活動月曆<br>Calendar</a>
+        
+      </div>
+      
+      
+      <div class="dropdown">
+        <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ef9350; border-color: #ef9350;">
+          中文
+        </a>      
+        <div class="dropdown-menu">
+          
+          <a class="dropdown-item" href="https://nthu-artscenter.github.io/">中文</a>
+          
+          <a class="dropdown-item" href="https://nthu-artscenter.github.io/en/">English</a>
+          
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark menu-mobile">
+  <a href="/" class="m-container navbar-brand">
+    <div class="brand">
+      <img src="/img/logo.png" alt="" class="pic">
+      <div class="content">
+        <div class="ch">國立清華大學藝術中心</div>
+        <div class="en">ARTS CENTER, NTHU</div>
+      </div>
+    </div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/about/">
+        <div class="m-item nav-link" style="text-align: center;">關於我們<br>About Us</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/about/history/" class="sub-item nav-link" style="text-align: center;">
+            中心簡史
+            <br>
+            History
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/activity/" class="sub-item nav-link" style="text-align: center;">
+            活動概述
+            <br>
+            Activity
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/faculty/" class="sub-item nav-link" style="text-align: center;">
+            組織人員
+            <br>
+            Faculty
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/place/zyxel/" class="sub-item nav-link" style="text-align: center;">
+            展演場地
+            <br>
+            Exhibition Venue
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/music/" class="sub-item nav-link" style="text-align: center;">
+            清華樂集
+            <br>
+            NTHU Chamber Ensemble
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/art/" class="sub-item nav-link" style="text-align: center;">
+            清華藝集
+            <br>
+            NTHU Art Salon
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/exhibitions/">
+        <div class="m-item nav-link" style="text-align: center;">展演節目<br>Programs</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/categories/public_art/" class="sub-item nav-link" style="text-align: center;">
+            公共藝術
+            <br>
+            Public Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/visual_art/" class="sub-item nav-link" style="text-align: center;">
+            視覺藝術
+            <br>
+            Visual Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/performing_art/" class="sub-item nav-link" style="text-align: center;">
+            表演藝術
+            <br>
+            Performing Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/film_art/" class="sub-item nav-link" style="text-align: center;">
+            電影藝術
+            <br>
+            Film Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/ai_music/" class="sub-item nav-link" style="text-align: center;">
+            AI樂團
+            <br>
+            AI Music
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/posts/">
+        <div class="m-item nav-link" style="text-align: center;">專欄文章<br>Column</a>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/friends/">
+        <div class="m-item nav-link" style="text-align: center;">清藝之友<br>Friends</a>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/calendar/">
+        <div class="m-item nav-link" style="text-align: center;">活動月曆<br>Calendar</a>
+        
+      </div>
+      
+    </ul>
+  </div>
+</div>
+</nav>
+      
+      
+
+
+    </div>
+  </div>
+</nav>
+		<div style="padding-top: 80px">
+			
+
+<div class="event-page-content">
+    <div class="_container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-1"></div>
+                <div class="col-12 col-lg-5 cover-pic" style="background-image:url('https://i.imgur.com/FeSYW8Dh.jpg')"></div>
+                <div class="col-12 col-lg-5">
+                    <div class="info">
+                        <div class="title-info">
+                            
+                            
+                            
+                                
+                                <button class="type">視覺藝術</button>
+                            
+                            
+                            
+                            <div class="time">2017-05-08 ~ 2017-06-07</div>
+                            <div class="title">清華大學葉子公共藝術設置開幕</div>
+                            <div class="hint">Juanjo Novella “LEAF&#34;</div>
+                        </div>
+                        <div class="date-info">
+                            <div class="left"></div>
+                            <div class="right">
+                                <div class="sub-title">
+                                    <div class="slash"></div>
+                                    <div class="title">展演資訊</div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left">主辦</div>
+                                    <div class="_right">清大藝術中心</div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left">展演者</div>
+                                    <div class="_right">Juanjo Novella</div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left">時間</div>
+                                    <div class="_right">12:00:00 ~ 19:00:00</div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left">地點</div>
+                                    <div class="_right">台積館一樓大廳</div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left">售票資訊</div>
+                                    <div class="_right"></div>
+                                </div>
+                                <div class="li">
+                                    <div class="_left"></div>
+                                    <div class="_right"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="date-info">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="down">
+                        <div class="left">
+                            <div class="sub-title">
+                                <div class="slash"></div>
+                                <div class="title">展演介紹</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="content-title"></div>
+                            <div class="content"><h2 id="簡介">簡介</h2>
+<p>西班牙藝術家Juanjo Novella即將於今年內動工在清大南校園大草原設置一件優雅的公共藝術，造形為一片紫荊樹葉，一片早就存在於校園樹種的樹葉。此項國際公共藝術設置計畫是集結合併校內多項建築物的公共藝術經費，計有六棟建物: 教學大樓新建工程、多功能運動館新建工程、學人宿舍新建工程、創新育成中心新建工程、清華實驗室新建工程、第一招待所B棟新建工程。藝術家於2016年初便親自到校園收集可提供創作靈感的自然界植物葉片，帶回西班牙繼續思考創作的可行性，希望能啟發多層次的意涵與聯想，在草原上的葉片邀請人們能與其互動，大自然與生活有密切的聯接。作品的絕對感和寂靜感應能喚起民眾積極的人生價值觀。這是件不容易施作的大型戶外公共藝術，材質是厚重的鋼板，量體巨大卻能帶來無限輕盈的感覺(節錄自賴小秋策展文字)。</p>
+<h2 id="about-leaf">About LEAF</h2>
+<p>Juanjo Novella, a Spanish artist, has set up an elegant public architectonic art,LEAF, at the southern Campus Green in NTHU on 8th Dec. 2017 . This public architectonic art is like the shape of  Bauhinia leaves, which are already planted on campus. The artist came to NTHU campus collecting leaves which can provide inspiration for his creation in person in 2016. He brought back all the leaves he collected back to Spain, thinking about the possibility of creating the public art creation. Also, he hopes the public architectonic art, LEAF, can inspire a complexity of meanings and association of ideas. Sincerely inviting all the guests to interact with this elegant creation, he also wishes people to appreciate this large, outdoor public architectonic art, which is quite difficult to set up. The texture of LEAF is hard steel plate; however, though LEAF looks large, the leaf shape makes people have a graceful association, just like a leaf dancing in the air.</p>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+		</div>
+		<div class="foot">
+    <div class="_container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="about col-12 col-lg-7">
+                    <div class="row info1">
+                        <div class="mobile col-12">
+                            <div class="open-time">諮詢時間: 周一至周五 9:00-12:00；14:00-17:00</div>
+                            <div class="phone">電話：886-3-5162222</div>
+                            <div class="fax">傳真：886-3-5726819</div>
+                            <div class="mail"></div>
+                            <div class="address">地址：30013新竹市光復路二段101號綜合大樓二館1樓</div>
+                        </div>
+                        <div class="left col-3 col-md-3">
+                            <div class="open-time">諮詢時間</div><br class="mobile" />
+                            <div class="phone">電話</div><br class="mobile" />
+                            <div class="fax">傳真</div><br class="mobile" />
+                            <div class="mail"></div><br class="mobile" />
+                            <div class="address">地址</div>
+                        </div>
+                        <div class="right col-9 col-md-9">
+                            <div class="open-time">周一至周五 9:00-12:00；14:00-17:00</div><br
+                                class="mobile" />
+                            <div class="phone">886-3-5162222</div><br class="mobile" />
+                            <div class="fax">886-3-5726819</div><br class="mobile" />
+                            <div class="mail"></div><br class="mobile" />
+                            <div class="address">30013新竹市光復路二段101號綜合大樓二館1樓</div>
+                        </div>
+                    </div>
+                    <div class="row quick-link">
+                        <div class="col-12 col-lg-4 link-group">
+                            <a href="/calendar/" class="links"></a>
+                            <a href="/about/place/zyxel/" class="links">合勤演藝廳</a>
+                            <a href="/about/place/art-workshop/" class="links">
+                                藝術中心展覽廳</a>
+                            <a href=""class="links">
+                                藝術工坊</a>
+                        </div>
+                        <div class="col-12 col-lg-4 link-group">
+                            <a href="https://drive.google.com/drive/folders/1baNQnSnU9uYTDUBF-_YIczKccZERbWKm?usp=sharing" class="links" target="_blank">
+                                展演申請</a>
+                            <a href="https://drive.google.com/drive/folders/1baNQnSnU9uYTDUBF-_YIczKccZERbWKm?usp=sharing" class="links" target="_blank">
+                                競賽徵件</a>
+                            <a href="/friends/" class="links">
+                                贊助藝中</a>
+                            <a href="/friends/" class="links">
+                                志工招募</a>
+                        </div>
+                        <div class="col-12 col-lg-4 link-group">
+                            <a class="links" href="http://www.nthu.edu.tw/" target="_blank">國立清華大學</a>
+                            <a class="links" href="https://www.npm.gov.tw/" target="_blank">國立故宮博物院</a>
+                            <a class="links" href="http://npac-ntch.org/zh/" target="_blank">國家兩廳院</a>
+                            <a class="links" href="http://www.npac-ntt.org/index" target="_blank">國家歌劇院</a>
+                            <a class="links" href="https://www.globalplayer.com/live/classicfm/uk/" target="_blank">古典音樂電台</a>
+                        </div>
+                    </div><br class="mobile" /><br class="mobile" />
+                    
+                </div>
+                <div class="col-12 col-lg-5">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14488.118836654818!2d120.9936884!3d24.7944362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53095d4c4a8e47db!2z5ZyL56uL5riF6I-v5aSn5a246Jed6KGT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1550901676443"
+                        frameborder="0" style="border:0;" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+	</body>
+</html>

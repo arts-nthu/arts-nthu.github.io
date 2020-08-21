@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on NTHU ArtsCenter</title>
+    <link>https://nthu-artscenter.github.io/tags/</link>
+    <description>Recent content in Tags on NTHU ArtsCenter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 15 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nthu-artscenter.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020春音樂家介紹</title>
+      <link>https://nthu-artscenter.github.io/tags/2020%E6%98%A5%E9%9F%B3%E6%A8%82%E5%AE%B6%E4%BB%8B%E7%B4%B9/</link>
+      <pubDate>Fri, 15 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/tags/2020%E6%98%A5%E9%9F%B3%E6%A8%82%E5%AE%B6%E4%BB%8B%E7%B4%B9/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

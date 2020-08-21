@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>news on NTHU ArtsCenter</title>
+    <link>https://nthu-artscenter.github.io/categories/news/</link>
+    <description>Recent content in news on NTHU ArtsCenter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nthu-artscenter.github.io/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>本校以「國立清華大學合併工程國際公共藝術」葉子公共藝術案參加文化部第七屆公共藝術獎，入圍【卓越獎】、【藝術創作獎】。</title>
+      <link>https://nthu-artscenter.github.io/news/4/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/news/4/</guid>
+      <description>報導網址</description>
+    </item>
+    
+    <item>
+      <title>合勤演藝廳本學期暫停借用</title>
+      <link>https://nthu-artscenter.github.io/news/2/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/news/2/</guid>
+      <description>因應防疫需求，合勤演藝廳本學期暫停借用。之後是否開放使用將視疫情與防疫作為，另作公告。</description>
+    </item>
+    
+    <item>
+      <title>從無中湧現展覽注意事項</title>
+      <link>https://nthu-artscenter.github.io/news/1/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/news/1/</guid>
+      <description>【從無中湧現】-2020藝鳴清華4/13(一)10:30於藝術中心展覽廳展出，敬邀蒞臨欣賞。因應疫情，取消茶會。進入展場請務必戴上口罩，須採實名制紀錄，並有專人檢查額溫貼紙，如有不便還請包涵。</description>
+    </item>
+    
+    <item>
+      <title>金穗獎入圍暨短片輔導金影展，取消全台巡迴</title>
+      <link>https://nthu-artscenter.github.io/news/3/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/news/3/</guid>
+      <description>【活動取消公告】為預防疫情影響性，國家電影中心宣佈，今年第42屆金穗獎入圍暨短片輔導金影展，取消全台巡迴。原定於4月7日至5月2日之清大場巡迴亦隨之取消；台北主影展仍照常舉辦。主影展訊息請留意金穗獎粉絲專頁公告。（2020.03.13公告）</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on NTHU ArtsCenter</title>
+    <link>https://nthu-artscenter.github.io/categories/</link>
+    <description>Recent content in Categories on NTHU ArtsCenter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nthu-artscenter.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>news</title>
+      <link>https://nthu-artscenter.github.io/categories/news/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020spring</title>
+      <link>https://nthu-artscenter.github.io/categories/2020spring/</link>
+      <pubDate>Wed, 20 May 2020 09:00:24 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/2020spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual_art</title>
+      <link>https://nthu-artscenter.github.io/categories/visual_art/</link>
+      <pubDate>Wed, 20 May 2020 09:00:24 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/visual_art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2018fall</title>
+      <link>https://nthu-artscenter.github.io/categories/2018fall/</link>
+      <pubDate>Wed, 20 May 2020 08:49:47 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/2018fall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019fall</title>
+      <link>https://nthu-artscenter.github.io/categories/2019fall/</link>
+      <pubDate>Wed, 20 May 2020 08:49:47 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/2019fall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2019spring</title>
+      <link>https://nthu-artscenter.github.io/categories/2019spring/</link>
+      <pubDate>Wed, 20 May 2020 08:49:47 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/2019spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>public_art</title>
+      <link>https://nthu-artscenter.github.io/categories/public_art/</link>
+      <pubDate>Wed, 20 May 2020 08:49:47 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/public_art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2020fall</title>
+      <link>https://nthu-artscenter.github.io/categories/2020fall/</link>
+      <pubDate>Wed, 08 Apr 2020 19:56:42 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/2020fall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai_music</title>
+      <link>https://nthu-artscenter.github.io/categories/ai_music/</link>
+      <pubDate>Wed, 08 Apr 2020 19:56:42 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/ai_music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>film_art</title>
+      <link>https://nthu-artscenter.github.io/categories/film_art/</link>
+      <pubDate>Wed, 08 Apr 2020 19:56:42 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/film_art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>performing_art</title>
+      <link>https://nthu-artscenter.github.io/categories/performing_art/</link>
+      <pubDate>Wed, 08 Apr 2020 19:56:42 +0000</pubDate>
+      
+      <guid>https://nthu-artscenter.github.io/categories/performing_art/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

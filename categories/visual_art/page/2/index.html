@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	
+	
+		<head>
+    
+    <link rel="stylesheet" href="https://nthu-artscenter.github.io/sass/main.min.0c0add24c4ae3d6177ec8c757d4dadabdfbafc1ce2b1dfbe356079b64b68bd42.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    
+    <script src="https://unpkg.com/@fullcalendar/core@4.4.0/main.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/core@4.4.0/main.css" crossorigin="anonymous">
+    <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.css" crossorigin="anonymous">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://unpkg.com/netlify-cms@^2.3.1/dist/netlify-cms.js"></script>
+    <script src="https://unpkg.com/netlify-auth-providers"></script>
+</head>
+	
+	<body>
+		<nav class="menu">
+  <div class="m-container">
+    <a  href="/" class="brand">
+      <img src="/img/logo.png" alt="" class="pic">
+      <div class="content">
+        <div class="ch">國立清華大學清華學院藝術中心</div>
+        <div class="en">ARTS CENTER, TSING HUA NTHU</div>
+      </div>
+    </a>
+    
+    <div class="main">
+      
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/about/">
+        <div class="m-item" style="text-align: center;">關於我們<br>About Us</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/about/history/" class="sub-item" style="text-align: center;">
+            中心簡史
+            <br>
+            History
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/activity/" class="sub-item" style="text-align: center;">
+            活動概述
+            <br>
+            Activity
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/faculty/" class="sub-item" style="text-align: center;">
+            組織人員
+            <br>
+            Faculty
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/place/zyxel/" class="sub-item" style="text-align: center;">
+            展演場地
+            <br>
+            Exhibition Venue
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/music/" class="sub-item" style="text-align: center;">
+            清華樂集
+            <br>
+            NTHU Chamber Ensemble
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/art/" class="sub-item" style="text-align: center;">
+            清華藝集
+            <br>
+            NTHU Art Salon
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/exhibitions/">
+        <div class="m-item" style="text-align: center;">展演節目<br>Programs</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/categories/public_art/" class="sub-item" style="text-align: center;">
+            公共藝術
+            <br>
+            Public Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/visual_art/" class="sub-item" style="text-align: center;">
+            視覺藝術
+            <br>
+            Visual Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/performing_art/" class="sub-item" style="text-align: center;">
+            表演藝術
+            <br>
+            Performing Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/film_art/" class="sub-item" style="text-align: center;">
+            電影藝術
+            <br>
+            Film Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/ai_music/" class="sub-item" style="text-align: center;">
+            AI樂團
+            <br>
+            AI Music
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/posts/">
+        <div class="m-item" style="text-align: center;">專欄文章<br>Column</a>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/friends/">
+        <div class="m-item" style="text-align: center;">清藝之友<br>Friends</a>
+        
+      </div>
+      
+      <a class="menu-a" href="https://nthu-artscenter.github.io/calendar/">
+        <div class="m-item" style="text-align: center;">活動月曆<br>Calendar</a>
+        
+      </div>
+      
+      
+      <div class="dropdown">
+        <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #ef9350; border-color: #ef9350;">
+          中文
+        </a>      
+        <div class="dropdown-menu">
+          
+          <a class="dropdown-item" href="https://nthu-artscenter.github.io/">中文</a>
+          
+          <a class="dropdown-item" href="https://nthu-artscenter.github.io/en/">English</a>
+          
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark menu-mobile">
+  <a href="/" class="m-container navbar-brand">
+    <div class="brand">
+      <img src="/img/logo.png" alt="" class="pic">
+      <div class="content">
+        <div class="ch">國立清華大學藝術中心</div>
+        <div class="en">ARTS CENTER, NTHU</div>
+      </div>
+    </div>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/about/">
+        <div class="m-item nav-link" style="text-align: center;">關於我們<br>About Us</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/about/history/" class="sub-item nav-link" style="text-align: center;">
+            中心簡史
+            <br>
+            History
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/activity/" class="sub-item nav-link" style="text-align: center;">
+            活動概述
+            <br>
+            Activity
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/faculty/" class="sub-item nav-link" style="text-align: center;">
+            組織人員
+            <br>
+            Faculty
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/place/zyxel/" class="sub-item nav-link" style="text-align: center;">
+            展演場地
+            <br>
+            Exhibition Venue
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/music/" class="sub-item nav-link" style="text-align: center;">
+            清華樂集
+            <br>
+            NTHU Chamber Ensemble
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/about/collect/art/" class="sub-item nav-link" style="text-align: center;">
+            清華藝集
+            <br>
+            NTHU Art Salon
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/exhibitions/">
+        <div class="m-item nav-link" style="text-align: center;">展演節目<br>Programs</a>
+        
+        <div class="submenu">
+          
+          <a href="https://nthu-artscenter.github.io/categories/public_art/" class="sub-item nav-link" style="text-align: center;">
+            公共藝術
+            <br>
+            Public Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/visual_art/" class="sub-item nav-link" style="text-align: center;">
+            視覺藝術
+            <br>
+            Visual Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/performing_art/" class="sub-item nav-link" style="text-align: center;">
+            表演藝術
+            <br>
+            Performing Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/film_art/" class="sub-item nav-link" style="text-align: center;">
+            電影藝術
+            <br>
+            Film Art
+          </a>
+
+          
+          <a href="https://nthu-artscenter.github.io/categories/ai_music/" class="sub-item nav-link" style="text-align: center;">
+            AI樂團
+            <br>
+            AI Music
+          </a>
+
+          
+        </div>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/posts/">
+        <div class="m-item nav-link" style="text-align: center;">專欄文章<br>Column</a>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/friends/">
+        <div class="m-item nav-link" style="text-align: center;">清藝之友<br>Friends</a>
+        
+      </div>
+      
+      <a class="menu-a nav-item" href="https://nthu-artscenter.github.io/calendar/">
+        <div class="m-item nav-link" style="text-align: center;">活動月曆<br>Calendar</a>
+        
+      </div>
+      
+    </ul>
+  </div>
+</div>
+</nav>
+      
+      
+
+
+    </div>
+  </div>
+</nav>
+		<div style="padding-top: 80px">
+			
+<script>
+    function openDropdown() {
+        $('.dropdown-year').on('click', (event) => {
+            $('.item-sub-menu')
+                .css('display', 'block');
+        });
+        
+        $(document).click(function(e) {
+            $('.dropdown-year')
+                .not($('.dropdown-year').has($(e.target)))
+                .children('.item-sub-menu')
+                .css('display','none');
+        });
+        
+    }
+    $(document).ready(function(){
+        openDropdown();
+    });
+</script>
+<div class="_container">
+    <div class="event-page">
+        <div class="container-xl">
+            <div class="top-title">
+                <div class="en">Program</div>
+                
+                    
+                    <div class="ch">展演: 視覺藝術</div> 
+                
+            </div>
+            
+            <div class="event-tag">
+                <div class="dropdown-year">
+                    <div class="item default">Release Year</div>
+                    <div class="item-sub-menu">
+                        <a href="/categories/2020fall/" class="menu-item">2020秋</a>
+                        <a href="/categories/2020spring/" class="menu-item">2020春</a>
+                        <a href="/categories/2019fall/" class="menu-item">2019秋</a>
+                        <a href="/categories/2019spring/" class="menu-item">2019春</a>
+                        <a href="/categories/2018fall/" class="menu-item">2018秋</a>
+                    </div>
+                </div>
+                <div class="tag-group">
+                    <a href="/categories/visual_art/" class="item">視覺藝術</a>
+                    <a href="/categories/public_art/" class="item">公共藝術</a>
+                    <a href="/categories/performing_art/" class="item">表演藝術</a>
+                    <a href="/categories/film_art/" class="item">電影藝術</a>
+                    <a href="/categories/ai_music/" class="item">AI樂團</a>
+                </div>
+                
+                <div class="search">
+                    <img src="" alt="" class="pic">
+                    <input type="text" class="input">
+                </div>
+                
+    
+            </div>
+            
+            <div class="event-waterfall">
+                <div class="row">
+                    
+                    
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-11-18</div>
+                                    <a href="/exhibitions/2019-11-18-%E5%81%B4%E9%9D%A2%E6%BA%AB%E5%BA%A6/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/p9ZX7Nwh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 側面溫度
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">黃嘉瑜2019攝影展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-11-13</div>
+                                    <a href="/exhibitions/2019-11-13-%E6%B2%92%E6%9C%89%E6%99%82%E9%96%93%E7%9A%84%E6%99%82%E9%96%93/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/ChlXqs7h.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 沒有時間的時間
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">王婷瑩2019個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-10-28</div>
+                                    <a href="/exhibitions/2019-10-28-%E6%B0%B4%E4%B8%8A%E5%B1%8B/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/lOx17V4h.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 水上屋
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">周永忠2019影像創作展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-10-02</div>
+                                    <a href="/exhibitions/2019-10-02-%E8%97%9D%E8%A1%93%E5%81%9A%E7%82%BA%E9%97%9C%E9%8D%B5%E5%AD%97-2019%E8%97%9D%E9%B3%B4%E6%B8%85%E8%8F%AF/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/sIEQntmh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 藝術做為關鍵字： 2019藝鳴清華
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">國立清華大學藝術與設計學系教授聯展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-09-30</div>
+                                    <a href="/exhibitions/2019-09-30-%E7%94%9F%E6%B4%BB%E7%89%87%E5%88%BB/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/qtZcEXCh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 生活片刻
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">吳建松個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-09-25</div>
+                                    <a href="/exhibitions/2019-09-25-%E6%9A%96%E6%9A%96/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/XNu7euHh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 暖暖
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">蘇紫綺2019個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-05-15</div>
+                                    <a href="/exhibitions/2019-05-15-try-error/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/5rtni10h.png');"></div>
+                                    </a>
+                                    <div class="title"> Try &amp; Error
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">羅云謙2019個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-05-13</div>
+                                    <a href="/exhibitions/2019-05-13-%E8%A9%A9%E7%9A%84%E8%81%B2%E9%9F%B3/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/V16m3G4h.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 詩的聲音
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">余光中、洛夫、周夢蝶文物特展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-04-24</div>
+                                    <a href="/exhibitions/2019-04-24-%E8%A4%87%E7%A9%BA%E9%96%93/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/ip4RB6sh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 複空間
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">清華藝集VI聯展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-04-13</div>
+                                    <a href="/exhibitions/2019-04-13-%E5%8F%B0%E7%81%A3%E6%87%89%E7%94%A8%E6%9D%90%E6%96%99%E6%96%87%E8%97%9D%E5%AD%A3/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/I8tuSCJh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 台灣應用材料文藝季
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-04-08</div>
+                                    <a href="/exhibitions/2019-04-08-%E7%95%AB%E7%AD%86%E5%B0%96%E7%9A%84%E6%BA%AB%E6%9F%94-%E5%9C%A8%E9%80%9F%E5%AF%AB%E4%B9%8B%E5%BE%8C/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/4HpUcKRh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> 畫筆尖的溫柔-在速寫之後
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">鄭開翔個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col event-item">
+                        <div class="event-card">
+                            <div class="link">
+                                <div class="info">
+                                    <div class="date">2019-04-03</div>
+                                    <a href="/exhibitions/2019-04-03-ocean-grace/ ">
+                                        <div class="img" style="background-image: url('https://i.imgur.com/QiaoQKFh.jpg');"></div>
+                                    </a>
+                                    <div class="title"> Ocean Grace
+                                        <div class="slash"></div>
+                                    </div>
+                                    <div class="subtitle">蔡欣蓓2019個展</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-pagination">
+        
+
+<ul class="pagination">
+    
+    <li class="page-item">
+        <a href="/categories/visual_art/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+    <a href="/categories/visual_art/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    </li>
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/visual_art/">1</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item active"><a class="page-link" href="/categories/visual_art/page/2/">2</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/visual_art/page/3/">3</a></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item disabled"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/visual_art/page/12/">12</a></li>
+    
+    
+    <li class="page-item">
+    <a href="/categories/visual_art/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    </li>
+    
+    <li class="page-item">
+        <a href="/categories/visual_art/page/12/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+    </li>
+    
+</ul>
+
+
+    </div>
+    
+</div>
+
+		</div>
+		<div class="foot">
+    <div class="_container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="about col-12 col-lg-7">
+                    <div class="row info1">
+                        <div class="mobile col-12">
+                            <div class="open-time">諮詢時間: 周一至周五 9:00-12:00；14:00-17:00</div>
+                            <div class="phone">電話：886-3-5162222</div>
+                            <div class="fax">傳真：886-3-5726819</div>
+                            <div class="mail"></div>
+                            <div class="address">地址：30013新竹市光復路二段101號綜合大樓二館1樓</div>
+                        </div>
+                        <div class="left col-3 col-md-3">
+                            <div class="open-time">諮詢時間</div><br class="mobile" />
+                            <div class="phone">電話</div><br class="mobile" />
+                            <div class="fax">傳真</div><br class="mobile" />
+                            <div class="mail"></div><br class="mobile" />
+                            <div class="address">地址</div>
+                        </div>
+                        <div class="right col-9 col-md-9">
+                            <div class="open-time">周一至周五 9:00-12:00；14:00-17:00</div><br
+                                class="mobile" />
+                            <div class="phone">886-3-5162222</div><br class="mobile" />
+                            <div class="fax">886-3-5726819</div><br class="mobile" />
+                            <div class="mail"></div><br class="mobile" />
+                            <div class="address">30013新竹市光復路二段101號綜合大樓二館1樓</div>
+                        </div>
+                    </div>
+                    <div class="row quick-link">
+                        <div class="col-12 col-lg-4 link-group">
+                            <a href="/calendar/" class="links"></a>
+                            <a href="/about/place/zyxel/" class="links">合勤演藝廳</a>
+                            <a href="/about/place/art-workshop/" class="links">
+                                藝術中心展覽廳</a>
+                            <a href=""class="links">
+                                藝術工坊</a>
+                        </div>
+                        <div class="col-12 col-lg-4 link-group">
+                            <a href="https://drive.google.com/drive/folders/1baNQnSnU9uYTDUBF-_YIczKccZERbWKm?usp=sharing" class="links" target="_blank">
+                                展演申請</a>
+                            <a href="https://drive.google.com/drive/folders/1baNQnSnU9uYTDUBF-_YIczKccZERbWKm?usp=sharing" class="links" target="_blank">
+                                競賽徵件</a>
+                            <a href="/friends/" class="links">
+                                贊助藝中</a>
+                            <a href="/friends/" class="links">
+                                志工招募</a>
+                        </div>
+                        <div class="col-12 col-lg-4 link-group">
+                            <a class="links" href="http://www.nthu.edu.tw/" target="_blank">國立清華大學</a>
+                            <a class="links" href="https://www.npm.gov.tw/" target="_blank">國立故宮博物院</a>
+                            <a class="links" href="http://npac-ntch.org/zh/" target="_blank">國家兩廳院</a>
+                            <a class="links" href="http://www.npac-ntt.org/index" target="_blank">國家歌劇院</a>
+                            <a class="links" href="https://www.globalplayer.com/live/classicfm/uk/" target="_blank">古典音樂電台</a>
+                        </div>
+                    </div><br class="mobile" /><br class="mobile" />
+                    
+                </div>
+                <div class="col-12 col-lg-5">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14488.118836654818!2d120.9936884!3d24.7944362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53095d4c4a8e47db!2z5ZyL56uL5riF6I-v5aSn5a246Jed6KGT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1550901676443"
+                        frameborder="0" style="border:0;" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+	</body>
+</html>
